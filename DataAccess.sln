@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeFirst", "CodeFirst", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModelFirst", "ModelFirst", "{9D40E4A1-A0B3-42D2-AACC-0AAEE40FC1F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CA_Barbut", "DBFirst\CA_Barbut\CA_Barbut.csproj", "{69E126E9-11AA-4A82-8288-3D81F802628A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CA_Barbut", "DBFirst\CA_Barbut\CA_Barbut.csproj", "{69E126E9-11AA-4A82-8288-3D81F802628A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CA_Northwind", "CA_Northwind\CA_Northwind.csproj", "{BEC369EA-0124-420D-B15E-07AC29CF33B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,12 +23,17 @@ Global
 		{69E126E9-11AA-4A82-8288-3D81F802628A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69E126E9-11AA-4A82-8288-3D81F802628A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69E126E9-11AA-4A82-8288-3D81F802628A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC369EA-0124-420D-B15E-07AC29CF33B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC369EA-0124-420D-B15E-07AC29CF33B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC369EA-0124-420D-B15E-07AC29CF33B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC369EA-0124-420D-B15E-07AC29CF33B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{69E126E9-11AA-4A82-8288-3D81F802628A} = {8B2CC846-0653-44A3-9CFD-C7AD31D94B74}
+		{BEC369EA-0124-420D-B15E-07AC29CF33B2} = {14F6AA01-492C-458B-8D01-38BFEB218F5B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97DB1673-1EB0-4BDE-AE66-BDA40A48C06A}

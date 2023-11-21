@@ -8,6 +8,7 @@ namespace CA_Barbut
     {
         static void Main(string[] args)
         {
+            int userId = 0;
             string userName = "";
             string password = "";
             byte menuSayac = 1;
@@ -245,12 +246,29 @@ namespace CA_Barbut
             void BalancePointRemove()
             {
                 Console.Write("Çekilecek Tutar:");
-                balanceRepository.PointRemove(BalanceInfo(int.Parse(Console.ReadLine())));
+                int cekilecekTutar = int.Parse(Console.ReadLine());
+                if(BalanceControl(cekilecekTutar) == true)
+                {
+                    balanceRepository.PointRemove(BalanceInfo(cekilecekTutar));
+                }
+                else
+                {
+                    Messages.BalanceError();
+                }
+                
             }
             void BalancePointAdd()
             {
                 Console.WriteLine("Yatırılacak Tutar:");
-                balanceRepository.PointAdd(BalanceInfo(int.Parse(Console.ReadLine())));
+                int cekilecekTutar = int.Parse(Console.ReadLine());
+                if (BalanceControl(cekilecekTutar) == true)
+                {
+                    balanceRepository.PointAdd(BalanceInfo(cekilecekTutar));
+                }
+                else
+                {
+                    Messages.BalanceError();
+                }
             }
             #endregion
 
