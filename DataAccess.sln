@@ -3,15 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBFirst", "DBFirst", "{8B2CC846-0653-44A3-9CFD-C7AD31D94B74}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database_First", "Database_First\Database_First.csproj", "{412D4354-F930-47FD-8F5A-1A8EFE3DAEA0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeFirst", "CodeFirst", "{14F6AA01-492C-458B-8D01-38BFEB218F5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code_First", "Code_First\Code_First.csproj", "{1EAC2551-51FF-48D0-9D7C-39D90706AF48}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModelFirst", "ModelFirst", "{9D40E4A1-A0B3-42D2-AACC-0AAEE40FC1F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model_First", "Model_First\Model_First.csproj", "{46E120E2-4960-4525-87F5-4FC1D1635A6A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CA_Barbut", "DBFirst\CA_Barbut\CA_Barbut.csproj", "{69E126E9-11AA-4A82-8288-3D81F802628A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CA_Northwind", "CA_Northwind\CA_Northwind.csproj", "{BEC369EA-0124-420D-B15E-07AC29CF33B2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{01C9865B-3A96-48DB-8B2A-9C76D91151F7}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,21 +20,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{69E126E9-11AA-4A82-8288-3D81F802628A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{69E126E9-11AA-4A82-8288-3D81F802628A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{69E126E9-11AA-4A82-8288-3D81F802628A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{69E126E9-11AA-4A82-8288-3D81F802628A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BEC369EA-0124-420D-B15E-07AC29CF33B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BEC369EA-0124-420D-B15E-07AC29CF33B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BEC369EA-0124-420D-B15E-07AC29CF33B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BEC369EA-0124-420D-B15E-07AC29CF33B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412D4354-F930-47FD-8F5A-1A8EFE3DAEA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412D4354-F930-47FD-8F5A-1A8EFE3DAEA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412D4354-F930-47FD-8F5A-1A8EFE3DAEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412D4354-F930-47FD-8F5A-1A8EFE3DAEA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EAC2551-51FF-48D0-9D7C-39D90706AF48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EAC2551-51FF-48D0-9D7C-39D90706AF48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EAC2551-51FF-48D0-9D7C-39D90706AF48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EAC2551-51FF-48D0-9D7C-39D90706AF48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E120E2-4960-4525-87F5-4FC1D1635A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E120E2-4960-4525-87F5-4FC1D1635A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E120E2-4960-4525-87F5-4FC1D1635A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E120E2-4960-4525-87F5-4FC1D1635A6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{69E126E9-11AA-4A82-8288-3D81F802628A} = {8B2CC846-0653-44A3-9CFD-C7AD31D94B74}
-		{BEC369EA-0124-420D-B15E-07AC29CF33B2} = {14F6AA01-492C-458B-8D01-38BFEB218F5B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97DB1673-1EB0-4BDE-AE66-BDA40A48C06A}
