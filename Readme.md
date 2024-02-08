@@ -21,7 +21,7 @@ Just installing these extensions is not enough; we also need to use a method cal
 
 However, Database First technique has a disadvantage. Changes made in the database modeling are not automatically reflected in the project. We either need to perform manual operations within the project or use the "Scaffolding" method again to transfer the changes in the database.
 
-[Database First Project](https://github.com/sonmezhakan).
+[Database First Project](https://github.com/sonmezhakan/DataAccess/tree/master/Database_First).
 
 ## 2. Code First
 
@@ -40,10 +40,10 @@ With this process, a database configuration/version file related to the created 
 
 This operation ensures the transfer of the created configuration/version file to the database. If this step is not performed, the changes will not be applied to the database.
 
-[Code First Project](https://github.com/sonmezhakan).
+[Code First Project](https://github.com/sonmezhakan/DataAccess/tree/master/Code_First).
 
 ## 3. Model First
 
 Model First, is created using a database design tool where you design database tables and relationships through a graphical user interface. You can use tools like Visual Studio for this technique.
 
-[Code First Project](https://github.com/sonmezhakan).
+[Model First Project](https://github.com/sonmezhakan/DataAccess/tree/master/Model_First).
